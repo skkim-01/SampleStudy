@@ -18,7 +18,8 @@ Security
 System
 ```
 
-### Sequence
+### Sequence: Windows NT
+- [EVENTLOGRECORD structure](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)
 ```
 1. Open Event Log Handle
 
@@ -31,3 +32,6 @@ System
 
 4. Load Messages
 ```
+
+### Sequence: Windows Vista
+- Watch: [winevt.h](https://docs.microsoft.com/en-us/windows/win32/api/winevt/)
