@@ -18,7 +18,7 @@ Security
 System
 ```
 
-### Sequence: Windows NT
+### Sequence: Windows XP: WINVER <= 0x502
 - [EVENTLOGRECORD structure](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-eventlogrecord)
 ```
 1. Open Event Log Handle
@@ -33,5 +33,5 @@ System
 4. Load Messages
 ```
 
-### Sequence: Windows Vista
+### Sequence: Windows 7: WINVER > 0x502
 - Watch: [winevt.h](https://docs.microsoft.com/en-us/windows/win32/api/winevt/)
